@@ -3,7 +3,7 @@
 Plugin Name: UORS External Course List for WordPress
 Plugin URI: http://www.uniwits.com/downloads/plugins/wordpress/
 Description: Displays services outside UORS (Uniwits Online Reservation Service)
-Version: 0.1
+Version: 0.1.1
 Author: Mao, Uniwits System
 Author URI: http://www.uniwits.com
 License: GPLv2 or Later

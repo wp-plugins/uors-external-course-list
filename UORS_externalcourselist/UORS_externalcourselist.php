@@ -32,7 +32,7 @@ class UORS_externalcourselist_WP_Widget extends WP_Widget {
 		if ($fordisplay)
 		{
 			if (!$instance['title'])
-				$instance['title']=__('Reservation Shortcuts');
+				$instance['title']=__('Quick Reserve');
 		}
 		return $instance;
 	}

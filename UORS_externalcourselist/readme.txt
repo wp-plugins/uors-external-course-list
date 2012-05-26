@@ -7,11 +7,13 @@ Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin adds a widget to your wordpress weblog.  With this widget you can display a list of services that you provide on the sidebar, so that your customers can make reservations online.  In development of this plugin, we assume that your service is priced by time length.
+This plugin adds a "Quick Reserve" widget to your wordpress weblog sidebar.  With this widget you can display a list of services that you provide on the sidebar, so that your customers can make reservations online.  In development of this plugin, we assume that your service is priced by time length.
 
 == Description ==
 
-This plugin adds a widget to your wordpress weblog.  With this widget you can display a list of services that you provide on the sidebar, so that you customers can make reservations online.  In development of this plugin, we assume that your service is priced by time length.
+This plugin adds a "Quick Reserve" widget to your wordpress weblog sidebar.  With this widget you can display a list of services that you provide on the sidebar, so that your customers can make reservations online.  In development of this plugin, we assume that your service is priced by time length.
+
+Instructors, counsellors, lawyers, language teachers, etc, as long as you price your service by time length, this plugin gives you a good start point.
 
 The backend is provided by Uniwits.com's online reservation service (UORS) at http://reserv.uniwits.com .  When using this plugin, you are publishing services that you create on UORS.  Please to go UORS, register an account, and upgrade to business, for free, then follow the wizard to publish a service.
 

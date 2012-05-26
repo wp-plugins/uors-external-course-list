@@ -3,7 +3,7 @@ Contributors: uniwits
 Tags: reservation, reserve, timetable, schedule, office, agenda, instructor, class, classroom, school, teacher, counsellor
 Requires at least: 3.0.1
 Tested up to: 3.3.2
-Stable tag: 0.1
+Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,16 +22,21 @@ This plugin is developed under Wordpress 3.0.1, but it only uses very basic func
 == Installation ==
 
 Step 1:
+
 Method One: Auto
+
 You can install the plugin by using the plugin installation function in your wordpress admin panel.
 
 Method Two: Manual
+
 Upload the folder of plugin files to just below the plugin directory of your wordpress.
 
 Step 2:
+
 Activate the plugin through the 'Plugins' menu in WordPress
 
 Step 3:
+
 In the Widgets menu, drag the widget 'UORS External Course List' into your sidebar.
 In the options, at least enter your Uniwits.com member ID, then your public services on reserv.uniwits.com will be displayed on your wordpress sidebar.
 
@@ -48,6 +53,9 @@ UORS has a free plan, you can use it for free.  But UORS also supports charged u
 3. screenshot-3.gif
 
 == Changelog ==
+
+= 0.1.1 =
+Added support to HTTPS.
 
 = 0.1 =
 Initial Version

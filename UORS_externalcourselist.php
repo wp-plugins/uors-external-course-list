@@ -124,7 +124,7 @@ class UORS_externalcourselist_WP_Widget extends WP_Widget {
         <li class="widget-container widget_meta">
         <?=$args['before_title'].$instance['title'].$args['after_title']?>
         <div class="textwidget">
-        <script type="text/javascript" src="http://reserv.uniwits.com/cp<?=$instance['cp_id']?>/qx-cmd-external.courselist.js.html<?=$params?'?'.substr($params,1):''?>"></script>
+        <script type="text/javascript" src="http<?=$_SERVER['HTTPS'] || $_SERVER['HTTP_SSL']?'s':''?>://reserv.uniwits.com/cp<?=$instance['cp_id']?>/qx-cmd-external.courselist.js.html<?=$params?'?'.substr($params,1):''?>"></script>
         </div>
         </li><?=$args['after_widget']?>
         <?php

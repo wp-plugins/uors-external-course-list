@@ -3,7 +3,7 @@ Contributors: uniwits
 Tags: reservation, reserve, timetable, schedule, office, agenda, instructor, class, classroom, school, teacher, counsellor
 Requires at least: 3.0.1
 Tested up to: 3.3.2
-Stable tag: 0.1.1
+Stable tag: 0.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,8 +54,12 @@ UORS has a free plan, you can use it for free.  But UORS also supports charged u
 
 == Changelog ==
 
+= 0.1 =
+Initial Version
+
 = 0.1.1 =
 Added support to HTTPS.
 
-= 0.1 =
-Initial Version
+= 0.1.2 =
+Added links for field explanation and user support.
+

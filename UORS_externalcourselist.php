@@ -3,7 +3,7 @@
 Plugin Name: UORS External Course List for WordPress
 Plugin URI: http://www.uniwits.com/downloads/plugins/wordpress/
 Description: Displays services outside UORS (Uniwits Online Reservation Service)
-Version: 0.1.2
+Version: 0.1.3
 Author: Mao, Uniwits System
 Author URI: http://www.uniwits.com
 License: GPLv2 or Later
@@ -43,7 +43,7 @@ class UORS_externalcourselist_WP_Widget extends WP_Widget {
 		
 		$form=''
 			.'<div style="width: 100%">'
-				.'<label>'.__('Your Uniwits Member ID: (Required)').'<br>'
+				.'<label>'.__('Your ').'<a href="http://reserv.uniwits.com/qx-cmd-course.publishwizard.start.html" target="_blank">'.__('Uniwits Member ID')."</a>".__(': (Required)').'<br>'
 					.'<input type="text" name="'.$this->get_field_name('cp_id').'" style="width: 100%" value="'.$instance['cp_id'].'" />'
 				.'</label>'
 				.(!ctype_digit($new_instance['cp_id'])?'<div style="font-style: italic">'.__('Please enter your Uniwits Member ID.').'<br>&nbsp;</div>':'')

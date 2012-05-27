@@ -15,6 +15,8 @@ This plugin adds a "Quick Reserve" widget to your wordpress weblog sidebar.  Wit
 
 Instructors, counsellors, lawyers, language teachers, etc, as long as you price your service by time length, this plugin gives you a good start point.
 
+This plugin does NOT put HEAVY burden on your site, rather it uses a dedicated backend site.  This means that you don't have to be worried about many website settings and scripting work, such as emailing, user account menagement, gathering user information, calculating vacant time, avoid room conflicts, etc.  It also avoids building a large number of database objects on your site, so that you don't have to be worried about renting for strong enough servers to afford the heavily accessed database.  In short, this plugin simply eliminates the expertise as a requirement of building a reservation site.
+
 The backend is provided by Uniwits.com's online reservation service (UORS) at http://reserv.uniwits.com .  When using this plugin, you are publishing services that you create on UORS.  Please to go UORS, register an account, and upgrade to business, for free, then follow the wizard to publish a service.
 
 This plugin is developed under Wordpress 3.0.1, but it only uses very basic functions.
@@ -61,5 +63,8 @@ Initial Version
 Added support to HTTPS.
 
 = 0.1.2 =
-Added links for field explanation and user support.
+Added links for field explanation and user support
 
+= 0.1.3 =
+Added a link for guiding service publishment.
+Refined description.

@@ -2,8 +2,8 @@
 /*
 Plugin Name: UORS External Course List for WordPress
 Plugin URI: http://www.uniwits.com/downloads/plugins/wordpress/
-Description: Displays services outside UORS (Uniwits Online Reservation Service)
-Version: 0.1.3
+Description: This plugin adds a "Quick Reserve" widget to your wordpress weblog sidebar.  With this widget you can display a list of services that you provide on the sidebar, so that your customers can make reservations online.
+Version: 0.1.4
 Author: Mao, Uniwits System
 Author URI: http://www.uniwits.com
 License: GPLv2 or Later
@@ -40,13 +40,13 @@ class UORS_externalcourselist_WP_Widget extends WP_Widget {
 	public function form($instance)
 	{
 		$instance=$this->filter_default_instance($instance);
-		
+//		.
 		$form=''
 			.'<div style="width: 100%">'
-				.'<label>'.__('Your ').'<a href="http://reserv.uniwits.com/qx-cmd-course.publishwizard.start.html" target="_blank">'.__('Uniwits Member ID')."</a>".__(': (Required)').'<br>'
-					.'<input type="text" name="'.$this->get_field_name('cp_id').'" style="width: 100%" value="'.$instance['cp_id'].'" />'
+				.'<label>'.__('Your Uniwits Member ID: (Required)').'<br>'
+					.'<input type="text" name="'.$this->get_field_name('cp_id').'" style="width: 8em" value="'.$instance['cp_id'].'" /><a href="http://reserv.uniwits.com/qx-cmd-course.publishwizard.register.html" target="_blank">'.__('Register?').'</a>'
 				.'</label>'
-				.(!ctype_digit($new_instance['cp_id'])?'<div style="font-style: italic">'.__('Please enter your Uniwits Member ID.').'<br>&nbsp;</div>':'')
+				.(!ctype_digit($new_instance['cp_id'])?'<div style="font-style: italic">'.__('Your public services will be displayed.').' '.__('Still not have one?').' <a href="http://reserv.uniwits.com/qx-cmd-course.publishwizard.start.html" target="_blank">'.__('Publish&gt;&gt;').'</a><br>&nbsp;</div>':'')
 			.'</div>'
 			.'<div style="width: 100%">'
 				.'<label>'.__('Side Bar Title:').'<br>'
